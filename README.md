@@ -8,7 +8,6 @@
 
 编译方式：
 sudo apt update
-
 sudo apt install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd \
 	fakeroot kmod cpio git python3-docutils gettext automake autopoint \
 	texinfo build-essential help2man pkg-config zlib1g-dev libgmp3-dev \
@@ -19,7 +18,6 @@ sudo git clone --depth=1 https://github.com/vb1980/Padavan-KVR.git /opt/rt-n56u
 cd /opt/rt-n56u/toolchain-mipsel
 sudo ./clean_toolchain
 sudo ./build_toolchain
-
 
 cd /opt/rt-n56u/trunk
 sudo ./clear_tree
